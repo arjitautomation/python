@@ -21,3 +21,10 @@ a1.feature2()
 b1=B()
 b1.feature4()
 b1.feature1()
+
+class C(B,A):
+    def feature5(self):
+        print("feature 5 working from class C")
+c1=C()
+
+c1.feature2()
